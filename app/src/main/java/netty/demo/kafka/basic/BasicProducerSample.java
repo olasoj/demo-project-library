@@ -14,7 +14,7 @@ import static java.lang.System.out;
 
 public class BasicProducerSample {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         final var topic = "getting-started";
         final Map<String, Object> config = Map.of(
                 ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092",
